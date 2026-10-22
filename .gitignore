@@ -1,0 +1,12 @@
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.zip
+*.rar
+*.7z
+*.exe
+*.dll
+.env
+.env.*
