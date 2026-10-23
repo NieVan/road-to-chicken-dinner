@@ -6,8 +6,6 @@
 
 [软件官网](https://nievan.github.io/road-to-chicken-dinner/) · [版本发布与下载](https://github.com/NieVan/road-to-chicken-dinner/releases) · [反馈问题](https://github.com/NieVan/road-to-chicken-dinner/issues)
 
-> 首个公开软件包正在准备中，当前 Releases 可能尚无可下载文件。官网链接需在仓库 Settings → Pages 开启发布后生效。当前软件尚未接入自动检查或安装更新功能。
-
 ## 软件界面
 
 ![吃鸡之路：地图总览、分类筛选与自定义标记](images/app-overview.png)
@@ -30,9 +28,9 @@
 
 ## 下载与启动
 
-1. 在 [Releases](https://github.com/NieVan/road-to-chicken-dinner/releases) 选择需要的版本。
-2. 下载发布说明中列出的 Windows 软件包；如果地图单独提供，同时下载地图资源包。
-3. 将软件包完整解压到有写入权限的目录。地图包按发布说明解压，最终地图应位于 `config/map/`。
+1. 在 [Releases](https://github.com/NieVan/road-to-chicken-dinner/releases) 下载文件名含 **full** 的 Windows 64 位完整版。当前版本为 **v1.0.1**。
+2. 完整版已包含程序、运行库和地图资源，无需另行下载或合并地图包。
+3. 将 ZIP 完整解压到有写入权限的目录，保留其中所有文件和子目录。
 4. 双击 `Road to Chicken Dinner.exe` 启动。
 
 不要只移动一个 EXE 文件。Qt 运行库、插件和配置资源需要保留在正确位置；无需安装 Qt、Node.js 或数据库。
@@ -96,8 +94,10 @@ Road to Chicken Dinner/
 - 重要的个人配置：`config/custom_markers.json`。更换电脑或更新软件前请备份。
 - 语言等偏好保存在 `config/settings.ini`。
 - 更新时遵循对应 Release 的说明，不要用空的个人配置覆盖已有文件。
-- 地图资源可以与程序分开发版；是否需要重新下载地图，以发布说明为准。
-- 目前请手动访问 Releases 查看版本，没有自动更新提示。
+- 从 v1.0.1 起，点击工具栏“检查更新”，有新版时可选择“立即更新”，自动下载、校验、安装并重启。
+- 程序与地图分别判断版本；地图未变化时不会重复下载。自动更新保留个人标记和设置，安装失败时尝试恢复旧文件。
+- v1.0.0 用户需先手动下载一次新版完整版，并将备份的个人配置复制到新版目录，之后即可在软件内更新。
+- Releases 中的 program ZIP、maps ZIP 和 update.json 供软件自动更新使用，首次下载只需选择 full 完整版。
 
 ## 常见问题
 
@@ -139,7 +139,7 @@ README.md             本使用说明
 
 软件压缩包和地图资源包应上传至 **Releases**，不直接提交到本仓库的文件列表。首次发布时，点击仓库的 Releases（或访问本 README 顶部的“版本发布与下载”链接），选择 **Create a new release / Draft a new release**，创建版本标签并上传附件。
 
-首次软件包发布后，需要同步更新首页下载区的状态与说明。
+发布新版本时，请同步更新首页下载区的版本号、完整版下载链接与说明。推荐用户下载 full 完整版，程序和地图分包继续供自动更新使用。
 
 ## 反馈与说明
 
