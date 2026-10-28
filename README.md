@@ -28,6 +28,8 @@
 
 ## 下载与启动
 
+国内备用下载：[百度网盘完整版 v1.0.1](https://pan.baidu.com/s/1Wm-ZjBJUjoJrVEU7Ke8dog?pwd=bzbx)，提取码：**bzbx**。链接已附带提取码，如未自动填入请手动输入。
+
 1. 在 [Releases](https://github.com/NieVan/road-to-chicken-dinner/releases) 下载文件名含 **full** 的 Windows 64 位完整版。当前版本为 **v1.0.1**。
 2. 完整版已包含程序、运行库和地图资源，无需另行下载或合并地图包。
 3. 将 ZIP 完整解压到有写入权限的目录，保留其中所有文件和子目录。
