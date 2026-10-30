@@ -28,12 +28,12 @@
 
 ## 下载与启动
 
-国内备用下载：[百度网盘完整版 v1.0.1](https://pan.baidu.com/s/1Wm-ZjBJUjoJrVEU7Ke8dog?pwd=bzbx)，提取码：**bzbx**。链接已附带提取码，如未自动填入请手动输入。
+国内备用下载：[百度网盘完整版 v1.0.2](https://pan.baidu.com/s/1CT3ucZoHTscfMEynS4Rt7g?pwd=dcqx)，提取码：**dcqx**。链接已附带提取码，如未自动填入请手动输入。
 
-1. 在 [Releases](https://github.com/NieVan/road-to-chicken-dinner/releases) 下载文件名含 **full** 的 Windows 64 位完整版。当前版本为 **v1.0.1**。
+1. 在 [Releases](https://github.com/NieVan/road-to-chicken-dinner/releases) 下载文件名含 **full** 的 Windows 64 位完整版。当前版本为 **v1.0.2**。
 2. 完整版已包含程序、运行库和地图资源，无需另行下载或合并地图包。
 3. 将 ZIP 完整解压到有写入权限的目录，保留其中所有文件和子目录。
-4. 双击 `Road to Chicken Dinner.exe` 启动。
+4. 打开解压得到的 `Road to Chicken Dinner` 文件夹，双击其中的 `Road to Chicken Dinner.exe` 启动。
 
 不要只移动一个 EXE 文件。Qt 运行库、插件和配置资源需要保留在正确位置；无需安装 Qt、Node.js 或数据库。
 
